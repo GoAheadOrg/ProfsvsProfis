@@ -17,6 +17,7 @@
 	font-family: bebas_neueregular;
 	text-shadow: -2px 1px 0px #d03f0e;
 	letter-spacing: 1px;
+	z-index: 2;
 }
 
 .acts h2 {
@@ -41,7 +42,7 @@
 	text-align: right;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 	.city-badge {
 		width: 70%;
 	}
