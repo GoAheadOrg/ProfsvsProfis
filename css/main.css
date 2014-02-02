@@ -19,6 +19,26 @@ header {
 	margin-top: 20px;
 }
 
+nav {
+	font-family: bebas_neueregular;
+	font-size: 1.3em;
+	color: #2b617a;
+	margin-bottom: 5px;
+}
+
+nav > a {
+	color: #2b617a ;
+}
+
+nav > a:hover {
+	color: #2b617a ;
+	text-decoration: overline underline;
+}
+
+nav > a.active {
+	text-decoration: overline underline;
+}
+
 .city-badge a {
 	width: 100%;
 	height: 100%;
