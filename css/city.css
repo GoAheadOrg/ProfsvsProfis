@@ -1,0 +1,87 @@
+.city-badge {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+}
+
+.flyer-middle {
+	position: relative;
+}
+
+.acts {
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	color: white;
+	font-size: 2.5em;
+	font-family: bebas_neueregular;
+	text-shadow: -2px 1px 0px #d03f0e;
+	letter-spacing: 1px;
+}
+
+.acts h2 {
+	color: #2b617a;
+	font-size: 1.5em;
+	text-shadow: none;
+}
+
+.acts ul>li>small {
+	display: block;
+	font-size: 0.5em;
+	line-height: 50%;
+}
+
+#profs {
+	left: 0px;
+	text-align: left;
+}
+
+#profis {
+	right: 0px;
+	text-align: right;
+}
+
+@media (min-width: 768px) {
+	.city-badge {
+		width: 70%;
+	}
+	.city-badge h2 {
+		font-size: 3.8em;
+		position: absolute;
+		width: 350px;
+		top: 60px;
+		left: 60px;
+	}
+	.city-badge h4 {
+		position: absolute;
+		top: 150px;
+		font-size: 2em;
+		width: 100%;
+	}
+	#motive {
+		margin-top: -80px;
+		position: absolute;
+		z-index: 2;
+	}
+}
+
+@media (max-width: 768px) {
+	.city-badge {
+	}
+	.city-badge h2 {
+		font-size: 1.7em;
+		position: absolute;
+		width: 80%;
+		top: 20%;
+		line-height: 150%;
+		height: 30%;
+		left: 10%;
+	}
+
+	.city-badge h4 {
+		position: absolute;
+		top: 60%;
+		width: 100%;
+	}
+}

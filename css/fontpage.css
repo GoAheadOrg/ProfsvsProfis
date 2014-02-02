@@ -3,11 +3,6 @@
 	cursor: pointer;
 }
 
-.city-badge h2, .city-badge h4 {
-	color: white;
-	text-align: center;
-}
-
 @media (min-width: 768px) {
 	.city-badge {
 		width: 50%;
@@ -27,10 +22,6 @@
 		top: 40px;
 		left: 70px;
 		width: 220px;
-		-webkit-transform: rotate(-9deg); /* chrome & safari*/
-		-moz-transform: rotate(-9deg); /* firefox */
-		-o-transform: rotate(-9deg); /* opera */
-    	transform: rotate(-9deg); /* explorer > 9 */
   	}
   	.city-badge h4 {
   		top: 102px;
