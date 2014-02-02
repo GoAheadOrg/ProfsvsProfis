@@ -1,0 +1,40 @@
+.city-badge:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.city-badge h2, .city-badge h4 {
+	color: white;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.city-badge {
+		width: 50%;
+		float: left;
+		height: 168px;
+		background-image: url(../img/badge.png);
+		background-size: 90% auto;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.city-badge h2, .city-badge h4 {
+		position: absolute;
+	}
+
+  	.city-badge h2 {
+		top: 40px;
+		left: 70px;
+		width: 220px;
+		-webkit-transform: rotate(-9deg); /* chrome & safari*/
+		-moz-transform: rotate(-9deg); /* firefox */
+		-o-transform: rotate(-9deg); /* opera */
+    	transform: rotate(-9deg); /* explorer > 9 */
+  	}
+  	.city-badge h4 {
+  		top: 102px;
+  		left: 0px;
+  		width: 100%;
+  	}
+}
