@@ -73,6 +73,10 @@
 		float: right;
 		z-index: 2;
 	}
+
+	.info-icons img {
+		width: 200px;
+	}
 }
 
 @media (min-width: 651px) and (max-width: 768px) {
@@ -125,4 +129,8 @@
 	.info-icons {
 		display: none;
 	}
+
+	.info-text > div {
+		margin-bottom: 1.5em;
+	} 
 }
