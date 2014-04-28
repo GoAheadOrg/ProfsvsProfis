@@ -28,6 +28,7 @@ nav {
 
 nav > a {
 	color: #2b617a ;
+	font-weight: normal;
 }
 
 nav > a:hover {
