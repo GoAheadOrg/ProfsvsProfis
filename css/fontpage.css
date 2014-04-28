@@ -36,6 +36,7 @@
 }
 
 @media (max-width:767px) {
+
 	.city-badge {
 		background-image: url(../img/badge-straight.png);
 		background-size: auto 90%;
@@ -43,6 +44,8 @@
 		background-position: center;
 		height: 80px;
 		margin-top: 5px;
+		padding-left: 0px;
+		padding-right: 0px;
 		padding-top: 1px;
 	}
 
