@@ -9,6 +9,23 @@
     font-style: normal;
 
 }
+@font-face {
+  font-family: 'entypo';
+  font-style: normal;
+  font-weight: normal;
+  src: url('http://weloveiconfonts.com/api/fonts/entypo/entypo.eot');
+  src: url('http://weloveiconfonts.com/api/fonts/entypo/entypo.eot?#iefix') format('eot'), 
+  url('http://weloveiconfonts.com/api/fonts/entypo/entypo.woff') format('woff'), 
+  url('http://weloveiconfonts.com/api/fonts/entypo/entypo.ttf') format('truetype'), 
+  url('http://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo') format('svg');
+}
+
+
+.entypo-facebook:before {
+  font-family: 'entypo', sans-serif;
+  content:"\f30c"
+
+}
 
 body {
 	background-image: url(../img/background.png);
