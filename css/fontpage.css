@@ -13,7 +13,7 @@
 		width: 50%;
 		float: left;
 		height: 168px;
-		background-image: url(../img/badge.png);
+		background-image: url(/img/badge-new.png);
 		background-size: 90% auto;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -38,7 +38,7 @@
 @media (max-width:767px) {
 
 	.city-badge {
-		background-image: url(../img/badge-straight.png);
+		background-image: url(/img/badge-straight.png);
 		background-size: auto 90%;
 		background-repeat: no-repeat;
 		background-position: center;

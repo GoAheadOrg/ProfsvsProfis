@@ -28,7 +28,7 @@
 }
 
 body {
-	background-image: url(../img/background.png);
+	background-image: url(/img/background-new.png);
 	background-size: 100% auto;
 }
 
@@ -39,17 +39,17 @@ header {
 nav {
 	font-family: bebas_neueregular;
 	font-size: 1.3em;
-	color: #2b617a;
+	color: #58483f;
 	margin-bottom: 5px;
 }
 
 nav > a {
-	color: #2b617a ;
+	color: #58483f ;
 	font-weight: normal;
 }
 
 nav > a:hover {
-	color: #2b617a ;
+	color: #58483f ;
 	text-decoration: overline underline;
 }
 
