@@ -28,7 +28,8 @@
 }
 
 body {
-	background-image: url(/img/background-new.png);
+	/*background-image: url(/img/background-new.png);*/
+	background: url(/img/background-new.png) no-repeat, url(/img/background.png) repeat;
 	background-size: 100% auto;
 }
 
