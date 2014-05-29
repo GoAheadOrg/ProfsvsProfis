@@ -44,13 +44,24 @@ nav {
 	margin-bottom: 5px;
 }
 
+#team {
+  text-align: center;
+}
+
+a {
+  color: #58483f;
+}
+
+a:hover {
+  color: #58483f;
+}
+
 nav > a {
-	color: #58483f ;
 	font-weight: normal;
 }
 
 nav > a:hover {
-	color: #58483f ;
+	
 	text-decoration: overline underline;
 }
 
